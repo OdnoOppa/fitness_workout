@@ -24,6 +24,8 @@ class HomePage extends StatelessWidget {
     },
   ];
 
+  HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     var media = MediaQuery.of(context).size;
